@@ -111,7 +111,8 @@ abstract class MonthYearPickerLocalizations {
     Locale('pt'),
     Locale('vi'),
     Locale('zh'),
-    Locale('zh', 'CH')
+    Locale('zh', 'CH'),
+    Locale('zh', 'TW')
   ];
 
   /// No description provided for @helpText.
@@ -169,6 +170,8 @@ MonthYearPickerLocalizations lookupMonthYearPickerLocalizations(Locale locale) {
         switch (locale.countryCode) {
           case 'CH':
             return MonthYearPickerLocalizationsZhCh();
+          case 'TW':
+            return MonthYearPickerLocalizationsZhTw();
         }
         break;
       }

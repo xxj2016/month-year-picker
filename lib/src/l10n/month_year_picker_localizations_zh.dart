@@ -27,3 +27,17 @@ class MonthYearPickerLocalizationsZhCh extends MonthYearPickerLocalizationsZh {
   @override
   String get cancelButtonLabel => '取消';
 }
+
+/// The translations for Chinese, as used in Switzerland (`zh_TW`).
+class MonthYearPickerLocalizationsZhTw extends MonthYearPickerLocalizationsZh {
+  MonthYearPickerLocalizationsZhTw() : super('zh_TW');
+
+  @override
+  String get helpText => '請選擇月/年';
+
+  @override
+  String get okButtonLabel => '確定';
+
+  @override
+  String get cancelButtonLabel => '取消';
+}
